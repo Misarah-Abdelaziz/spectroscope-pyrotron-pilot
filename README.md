@@ -48,7 +48,7 @@ The dataset follows the hierarchy below:
 | **Vegetation Type** | Two vegetation types were investigated, Native_Forest_Eucalypt and Grass_Ryegrass. |
 | **Fuel Type** | Three Fuels were collected from those vegetation types, Canopy(Can), Litter(Lit) and Pasture(Pas). |
 | **Combustibility Treatment** | Fuel prepared under either Low (LC) or High (HC) combustibility conditions. |
-| **Replicate** | Individual experimental replicates (R1–R6). |
+| **Replicate** | Individual experimental replicates (R#). |
 | **Data Category** | Measurements collected for each experiment, Fire_Behaviour, GHG and Spectral. |
 
 # Experimental Design
