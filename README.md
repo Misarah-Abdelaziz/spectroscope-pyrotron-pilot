@@ -80,6 +80,7 @@ Contains greenhouse gas and particulate emissions measured during combustion, in
 Contains hyperspectral imagery collected before and after burning to characterise fuel spectral properties over the 400–2500 nm wavelength range.
 
 Each replicate contains two hyperspectral datasets:
+
 <ReplicateName>_hyper/ – Visible and Near-Infrared (VNIR) hyperspectral imagery.
 <ReplicateName>_SWIR/ – Short-Wave Infrared (SWIR) hyperspectral imagery.
 
