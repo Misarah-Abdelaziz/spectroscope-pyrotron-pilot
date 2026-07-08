@@ -50,7 +50,7 @@ The dataset follows the hierarchy below:
 
 | Vegetation Type | Fuel Type | Combustibility Treatment | Replicates
 |-----------------|-----------|--------------------------|-----------|
-| Native forest (Eucalypt) | Canopy | Low | R# |
+| Native forest (Eucalypt) | Canopy | Low | R1-R4 |
 | Native forest (Eucalypt) | Canopy | High | R# |
 | Native forest (Eucalypt) | Litter | Low | R# |
 | Native forest (Eucalypt) | Litter | High | R# |
