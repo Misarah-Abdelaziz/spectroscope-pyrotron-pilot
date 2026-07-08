@@ -45,7 +45,7 @@ The dataset follows the hierarchy below:
 
 # Experimental Design
 
-| Vegetation Type | Fuel Type | Combustibility Treatment | Replicates
+| Vegetation Type | Fuel Type | Combustibility Treatment | Replicates |
 |-----------------|-----------|--------------------------|-----------|
 | Native forest (Eucalypt) | Canopy | Low | R1-R4 |
 | Native forest (Eucalypt) | Canopy | High | R1-R4 |
