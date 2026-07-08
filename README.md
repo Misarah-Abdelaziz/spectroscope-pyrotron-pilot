@@ -60,9 +60,9 @@ Each replicate contains the following subfolders.
 
 Contains observations and measurements describing free-spreading fire behaviour collected during each combustion experiment.
 - **Exit_view/** – Images and videos captured from the downstream (exit) view of the combustion wind tunnel.
-top_view/ –  Videos captured from overhead cameras.
-stills/ – Selected still images extracted from the experiment.
-logger_data/ – Experimental logger outputs and associated sensor measurements.
+- **top_view/** –  Videos captured from overhead cameras.
+- **stills/** – Selected still images extracted from the experiment.
+- **logger_data/** – Experimental logger outputs and associated sensor measurements.
 
 ## GHG
 
@@ -78,8 +78,8 @@ Contains hyperspectral imagery collected before and after burning to characteris
 
 Each replicate contains two hyperspectral datasets:
 
-_hyper/ – Visible and Near-Infrared (VNIR) hyperspectral imagery.
+- **hyper/** – Visible and Near-Infrared (VNIR) hyperspectral imagery.
 
-_SWIR/ – Short-Wave Infrared (SWIR) hyperspectral imagery.
+- **SWIR/** – Short-Wave Infrared (SWIR) hyperspectral imagery.
 
 These datasets include the raw and processed hyperspectral products associated with each experimental replicate.
