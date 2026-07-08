@@ -3,7 +3,7 @@
 The dataset is organised hierarchically according to vegetation type, fuel type, combustibility treatment, experimental replicate, and data category.
 
 ```text
-spectroscope-pyrotron-pilot/
+Bushfire-Fuel-Watch-Pilot-Data/
 │
 ├── Native_Forest_Eucalypt/
 │   ├── Canopy/
