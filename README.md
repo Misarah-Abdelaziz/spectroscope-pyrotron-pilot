@@ -2,6 +2,7 @@
 
 The dataset is organised hierarchically according to vegetation type, fuel type, combustibility treatment, experimental replicate, and data category.
 
+```text
 spectroscope-pyrotron-pilot/
 │
 ├── Native_Forest_Eucalypt/
@@ -17,23 +18,19 @@ spectroscope-pyrotron-pilot/
 │   │   │   │   └── Spectral/
 │   │   │   │       ├── Euc_Can_LC_R1_YYYYMMDD_hyper/
 │   │   │   │       └── Euc_Can_LC_R1_YYYYMMDD_SWIR/
-│   │   │   │
 │   │   │   ├── Euc_Can_LC_R2_YYYYMMDD/
 │   │   │   └── ...
-│   │   │
 │   │   └── High_Combustibility/
 │   │       ├── Euc_Can_HC_R1_YYYYMMDD/
 │   │       └── ...
-│   │
 │   └── Litter/
 │       ├── Low_Combustibility/
 │       └── High_Combustibility/
-│
 └── Grass_Ryegrass/
     └── Pasture/
         ├── Low_Combustibility/
         └── High_Combustibility/
-
+```
 # Directory Hierarchy
 
 The dataset follows the hierarchy below:
