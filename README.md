@@ -2,15 +2,25 @@
 
 The dataset is organised hierarchically according to vegetation type, fuel type, combustibility treatment, experimental replicate, and data category.
 
-```text
 spectroscope-pyrotron-pilot/
 │
 ├── Native_Forest_Eucalypt/
 │   ├── Canopy/
 │   │   ├── Low_Combustibility/
 │   │   │   ├── Euc_Can_LC_R1_YYYYMMDD/
+│   │   │   │   ├── Fire_Behaviour/
+│   │   │   │   │   ├── Exit_view/
+│   │   │   │   │   ├── logger_data/
+│   │   │   │   │   ├── stills/
+│   │   │   │   │   └── top_view/
+│   │   │   │   ├── GHG/
+│   │   │   │   └── Spectral/
+│   │   │   │       ├── Euc_Can_LC_R1_YYYYMMDD_hyper/
+│   │   │   │       └── Euc_Can_LC_R1_YYYYMMDD_SWIR/
+│   │   │   │
 │   │   │   ├── Euc_Can_LC_R2_YYYYMMDD/
 │   │   │   └── ...
+│   │   │
 │   │   └── High_Combustibility/
 │   │       ├── Euc_Can_HC_R1_YYYYMMDD/
 │   │       └── ...
@@ -23,17 +33,6 @@ spectroscope-pyrotron-pilot/
     └── Pasture/
         ├── Low_Combustibility/
         └── High_Combustibility/
-```
-
-Each replicate folder contains three data categories:
-
-```text
-Replicate/
-│
-├── Fire_Behaviour/
-├── GHG/
-└── Spectral/
-```
 
 # Directory Hierarchy
 
@@ -41,36 +40,32 @@ The dataset follows the hierarchy below:
 
 | Level | Description |
 |--------|-------------|
-| **Vegetation Type** | Two vegetation types were investigated. |
-| **Fuel Type** | Fuel component collected from each vegetation type. |
-| **Combustibility Treatment** | Fuel prepared under either Low or High combustibility conditions. |
-| **Replicate** | Individual experimental replicate (R1–R4). |
-| **Data Category** | Measurements collected for each experiment. |
+| **Vegetation Type** | Two vegetation types were investigated, Native_Forest_Eucalypt and Grass_Ryegrass. |
+| **Fuel Type** | Three Fuels were collected from those vegetation types, Canopy(Can), Litter(Lit) and Pasture(Pas). |
+| **Combustibility Treatment** | Fuel prepared under either Low (LC) or High (HC) combustibility conditions. |
+| **Replicate** | Individual experimental replicates (R1–R6). |
+| **Data Category** | Measurements collected for each experiment, Fire_Behaviour, GHG and Spectral. |
 
 # Experimental Design
 
-| Vegetation Type | Fuel Type | Combustibility Treatment |
-|-----------------|-----------|--------------------------|
-| Native forest (Eucalypt) | Canopy | Low |
-| Native forest (Eucalypt) | Canopy | High |
-| Native forest (Eucalypt) | Litter | Low |
-| Native forest (Eucalypt) | Litter | High |
-| Grass (Ryegrass) | Pasture | Low |
-| Grass (Ryegrass) | Pasture | High |
-
-Each treatment contains **four experimental replicates (R1–R4)**.
-
-# Data Categories
+| Vegetation Type | Fuel Type | Combustibility Treatment | Replicates
+|-----------------|-----------|--------------------------|-----------|
+| Native forest (Eucalypt) | Canopy | Low | R# |
+| Native forest (Eucalypt) | Canopy | High | R# |
+| Native forest (Eucalypt) | Litter | Low | R# |
+| Native forest (Eucalypt) | Litter | High | R# |
+| Grass (Ryegrass) | Pasture | Low | R# |
+| Grass (Ryegrass) | Pasture | High | R# |
 
 Each replicate contains the following subfolders.
 
 ## Fire_Behaviour
 
-Contains measurements describing free-spreading fire behaviour, including quantities such as:
-- Rate of spread
-- Flame characteristics
-- Fire progression
-- Other fire behaviour outputs
+Contains observations and measurements describing free-spreading fire behaviour collected during each combustion experiment.
+Exit_view/ – Images and videos captured from the downstream (exit) view of the combustion wind tunnel.
+top_view/ –  Videos captured from overhead cameras.
+stills/ – Selected still images extracted from the experiment.
+logger_data/ – Experimental logger outputs and associated sensor measurements.
 
 ## GHG
 
@@ -78,28 +73,14 @@ Contains greenhouse gas and particulate emissions measured during combustion, in
 - CO₂
 - CO
 - CH₄
-- VOCs
-- Other emission products (where applicable)
+- PM2.5
 
 ## Spectral
 
-Contains hyperspectral measurements collected before and/or after burning, including spectral reflectance data across the **400–2500 nm** wavelength range and associated processed products.
+Contains hyperspectral imagery collected before and after burning to characterise fuel spectral properties over the 400–2500 nm wavelength range.
 
-# Example
+Each replicate contains two hyperspectral datasets:
+<ReplicateName>_hyper/ – Visible and Near-Infrared (VNIR) hyperspectral imagery.
+<ReplicateName>_SWIR/ – Short-Wave Infrared (SWIR) hyperspectral imagery.
 
-```text
-Native_Forest_Eucalypt/
-└── Canopy/
-    └── High_Combustibility/
-        └── Euc_Can_HC_R1_20250221/
-            ├── Fire_Behaviour/
-            ├── GHG/
-            └── Spectral/
-```
-
-This folder corresponds to:
-- **Vegetation Type:** Native forest (Eucalypt)
-- **Fuel Type:** Canopy
-- **Combustibility:** High
-- **Replicate:** R1
-- **Experiment date:** 21 February 2025
+These datasets include the raw and processed hyperspectral products associated with each experimental replicate.
