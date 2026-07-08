@@ -25,11 +25,19 @@ spectroscope-pyrotron-pilot/
 │   │       └── ...
 │   └── Litter/
 │       ├── Low_Combustibility/
+│   │       ├── Euc_Lit_LC_R1_YYYYMMDD/
+│   │       └── ...
 │       └── High_Combustibility/
+│   │       ├── Euc_Lit_HC_R1_YYYYMMDD/
+│   │       └── ...
 └── Grass_Ryegrass/
     └── Pasture/
         ├── Low_Combustibility/
+            ├── Gra_Pas_LC_R1_YYYYMMDD/
+            └── ...
         └── High_Combustibility/
+            ├── Gra_Pas_HC_R1_YYYYMMDD/
+            └── ...
 ```
 # Directory Hierarchy
 
