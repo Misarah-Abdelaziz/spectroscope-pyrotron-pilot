@@ -82,6 +82,7 @@ Contains hyperspectral imagery collected before and after burning to characteris
 Each replicate contains two hyperspectral datasets:
 
 <ReplicateName>_hyper/ – Visible and Near-Infrared (VNIR) hyperspectral imagery.
+
 <ReplicateName>_SWIR/ – Short-Wave Infrared (SWIR) hyperspectral imagery.
 
 These datasets include the raw and processed hyperspectral products associated with each experimental replicate.
