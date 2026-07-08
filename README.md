@@ -51,11 +51,11 @@ The dataset follows the hierarchy below:
 | Vegetation Type | Fuel Type | Combustibility Treatment | Replicates
 |-----------------|-----------|--------------------------|-----------|
 | Native forest (Eucalypt) | Canopy | Low | R1-R4 |
-| Native forest (Eucalypt) | Canopy | High | R# |
-| Native forest (Eucalypt) | Litter | Low | R# |
-| Native forest (Eucalypt) | Litter | High | R# |
-| Grass (Ryegrass) | Pasture | Low | R# |
-| Grass (Ryegrass) | Pasture | High | R# |
+| Native forest (Eucalypt) | Canopy | High | R1-R4 |
+| Native forest (Eucalypt) | Litter | Low | R1-R6 |
+| Native forest (Eucalypt) | Litter | High | R1-R4 |
+| Grass (Ryegrass) | Pasture | Low | R1-R4 |
+| Grass (Ryegrass) | Pasture | High | R1-R4 |
 
 Each replicate contains the following subfolders.
 
