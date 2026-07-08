@@ -59,7 +59,7 @@ Each replicate contains the following subfolders.
 ## Fire_Behaviour
 
 Contains observations and measurements describing free-spreading fire behaviour collected during each combustion experiment.
-Exit_view/ – Images and videos captured from the downstream (exit) view of the combustion wind tunnel.
+- **Exit_view/** – Images and videos captured from the downstream (exit) view of the combustion wind tunnel.
 top_view/ –  Videos captured from overhead cameras.
 stills/ – Selected still images extracted from the experiment.
 logger_data/ – Experimental logger outputs and associated sensor measurements.
