@@ -7,8 +7,9 @@ Bushfire-Fuel-Watch-Pilot-Data/
 │
 ├── Native_Forest_Eucalypt/
 │   ├── Canopy/
-│   │   ├── Low_Combustibility/
-│   │   │   ├── Euc_Can_LC_R1_YYYYMMDD/
+│   │   ├── High_Combustibility/
+│   │   │   ├── Euc_Can_HC_R1_YYYYMMDD/
+│   │   │   │   ├── Biochemistry/
 │   │   │   │   ├── Fire_Behaviour/
 │   │   │   │   │   ├── Exit_view/
 │   │   │   │   │   ├── logger_data/
@@ -16,27 +17,27 @@ Bushfire-Fuel-Watch-Pilot-Data/
 │   │   │   │   │   └── top_view/
 │   │   │   │   ├── GHG/
 │   │   │   │   └── Spectral/
-│   │   │   │       ├── Euc_Can_LC_R1_YYYYMMDD_hyper/
-│   │   │   │       └── Euc_Can_LC_R1_YYYYMMDD_SWIR/
-│   │   │   ├── Euc_Can_LC_R2_YYYYMMDD/
+│   │   │   │       ├── Euc_Can_HC_R1_YYYYMMDD_hyper/
+│   │   │   │       └── Euc_Can_HC_R1_YYYYMMDD_SWIR/
+│   │   │   ├── Euc_Can_HC_R2_YYYYMMDD/
 │   │   │   └── ...
-│   │   └── High_Combustibility/
-│   │       ├── Euc_Can_HC_R1_YYYYMMDD/
+│   │   └── Low_Combustibility/
+│   │       ├── Euc_Can_LC_R1_YYYYMMDD/
 │   │       └── ...
 │   └── Litter/
-│       ├── Low_Combustibility/
-│   │       ├── Euc_Lit_LC_R1_YYYYMMDD/
-│   │       └── ...
-│       └── High_Combustibility/
+│       ├── High_Combustibility/
 │   │       ├── Euc_Lit_HC_R1_YYYYMMDD/
+│   │       └── ...
+│       └── Low_Combustibility/
+│   │       ├── Euc_Lit_LC_R1_YYYYMMDD/
 │   │       └── ...
 └── Grass_Ryegrass/
     └── Pasture/
-        ├── Low_Combustibility/
-            ├── Gra_Pas_LC_R1_YYYYMMDD/
-            └── ...
-        └── High_Combustibility/
+        ├── High_Combustibility/
             ├── Gra_Pas_HC_R1_YYYYMMDD/
+            └── ...
+        └── Low_Combustibility/
+            ├── Gra_Pas_LC_R1_YYYYMMDD/
             └── ...
 ```
 # Directory Hierarchy
@@ -64,6 +65,16 @@ The dataset follows the hierarchy below:
 
 Each replicate contains the following subfolders.
 
+## Biochemistry
+
+Contains biochemical properties of the vegetation samples, including:
+- Cellulose content
+- Carbon content
+- Chlorophyll a
+- Chlorophyll b
+- Carotenoids
+- Leaf area
+  
 ## Fire_Behaviour
 
 Contains observations and measurements describing free-spreading fire behaviour collected during each combustion experiment.
